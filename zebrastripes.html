@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 200%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 8px;
+        }
+        th {
+            background-color: pink;
+            color: white;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: plum;
+        }
+    </style>
+</head>
+<body>
+    <h2>Zebra Striped Table</h2>
+    <p>Untuk table bergaris zebra, gunakan pemilihan nth-child()</p>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>Dinda</td>
+            <td>Putri</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Fadia</td>
+            <td>Nur</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Sri</td>
+            <td>Asih</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Cindy</td>
+            <td>Ajja</td>
+            <td>$100</td>
+        </tr>
+    </table>
+</body>
+</html>
